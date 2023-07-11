@@ -235,6 +235,7 @@ class _ContactFormState extends State<ContactForm> {
                             if (value == null || value.isEmpty) {
                               return 'Please enter yout message';
                             }
+                            return null;
                           },
                         ),
                       ),

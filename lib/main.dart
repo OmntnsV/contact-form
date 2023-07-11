@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         '/contact': (context) => const ContactScreen(),
       },
       initialRoute: '/',
-      title: 'Advertech',
+      title: 'contact',
     );
   }
 }
