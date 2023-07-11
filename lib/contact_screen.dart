@@ -75,8 +75,7 @@ class _ContactFormState extends State<ContactForm> {
 
     try {
       final response = await http.post(
-        Uri.parse(
-            'https://jsonplaceholder.typicode.com/posts'), // https://api.byteplex.info/api/test/contact/
+        Uri.parse('https://jsonplaceholder.typicode.com/posts'),
         headers: {'Content-Type': 'application/json'},
         body: jsonData,
       );
